@@ -1,0 +1,119 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-bar{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-evenly;
+     background-color: brown;
+     width: 100%;
+body{
+    padding: 0%;
+    margin: 0%;
+}    
+}
+.logo{
+    text-decoration: wavy;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 60px;
+}
+ul{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+list-style: none;
+}
+li{
+    margin: 4px;
+
+}
+.hero-section{
+    background-color: rgb(237, 237, 243);
+    margin: 4%;
+    display: flex;
+    border-radius: 5%;
+    flex-flow: row wrap;
+    justify-content: ;
+
+}
+.hero-text{
+    padding: 2%;
+    color: rgb(8, 2, 2);
+    background-color: rgb(240, 239, 239);
+}
+.hero{
+    background: url(one.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    min-width: 650px;
+    border-radius: 5%;
+    
+
+}
+@media (max-width:970px) {
+    .hero{
+        height: 30px;
+        min-width: 30px;
+    }
+    
+    .hero{
+        
+        background-color: beige;
+        height: 500px;
+        min-width: 850px;
+        border-radius: 5%;
+        
+    
+    }
+    
+}
+.main{
+    border: 0px  rgb(248, 248, 9) solid;
+    background-color: rgb(85, 80, 76);
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+      gap: 5px;
+      height: auto;
+
+    
+}
+.sub{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+     width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 0%;
+    gap: 0px;
+    background-color: green;
+    border: 2px rgb(85, 14, 216) solid;
+  
+}
+.sub:hover{
+    border: 2px pink solid;
+    width: 320px;
+    background-color: pink;
+}
+.shoes{
+    margin: 0%;
+    max-height: 200px;
+    width: 300px;
+    border: 1px white outset;
+    border-radius: 5%;
+    
+  
+}
+
+
+button{
+    background-color: yellow;
+}
+.detail{
+    padding: ;
+    background-color: teal;
+}
